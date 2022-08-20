@@ -1,10 +1,10 @@
 import React from "react";
 
-function Home () {
+function MusicQuotesProjectLP () {
     return (
         <>
         </>
     )
 }
 
-export default Home
+export default MusicQuotesProjectLP

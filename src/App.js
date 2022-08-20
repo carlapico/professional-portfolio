@@ -1,9 +1,10 @@
 import './App.css';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <>
-      <h1>Professional Portfolio</h1>
+      <Hero />
     </>
   );
 }

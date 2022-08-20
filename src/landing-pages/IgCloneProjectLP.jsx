@@ -1,10 +1,10 @@
 import React from "react";
 
-function Home () {
+function IgCloneProjectLP () {
     return (
         <>
         </>
     )
 }
 
-export default Home
+export default IgCloneProjectLP
