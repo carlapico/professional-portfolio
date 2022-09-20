@@ -1,13 +1,20 @@
 .hero-component {    
-    border: 2px solid black;
+    border: 2px solid white;
     margin: inherit;
     padding: 0px;
     margin-bottom: 30px;
     margin: 3;
+    display: flex;
+}
+
+.heroh1 {
+    display: flex
 }
 
 #headshot {
     height: 300px;
     width:300px;
+    border-radius: 100%;
+    border: 2px solid black;
 }
 

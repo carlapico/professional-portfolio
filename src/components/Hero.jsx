@@ -1,19 +1,19 @@
 import './hero.css'
 import headshot from "./boca-code-headshot.png"
+import bwheadshot from './blackandwhiteheadshot.png'
 
 
 function Hero () {
     return (
-        
-        <div class="hero-component">
+        <div className='hero-component'>
+            <div className='herotextandbutton'>
+                <h1 className='heroh1'> Hi, my name is Carla. I am a Software Engineer from Boca Code. </h1>
+                <button>Download Resume</button>
+            </div>
+                {/* <img id='headshot' src={headshot} alt="Carla's Headshot" /> */}
+                <img id='headshot' src={bwheadshot} alt="Carla's Headshot" />
 
-            <h1>Professional Portfolio</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat dolore neque nesciunt omnis, quas perspiciatis. Atque voluptatem sequi at facilis esse odit nulla possimus, dolore non doloribus itaque eius.</p>
-            <img id='headshot' src={headshot} alt="Carla's Headshot" />
-            <br /> 
-            <button>Download Resume</button>
-                
-         </div>
+        </div>
     )
 }
 
